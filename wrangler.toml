@@ -1,11 +1,9 @@
+# Cloudflare Pages configuration
 name = "ascii-canvas"
 compatibility_date = "2024-07-01"
 
+# Required by Pages — output directory from vite build
 pages_build_output_dir = "dist"
-
-[build]
-command = "npm run build"
-output = "dist"
 
 # Future: D1 database for artwork metadata
 # [[d1_databases]]
