@@ -1,0 +1,19 @@
+name = "ascii-canvas"
+compatibility_date = "2024-07-01"
+
+pages_build_output_dir = "dist"
+
+[build]
+command = "npm run build"
+output = "dist"
+
+# Future: D1 database for artwork metadata
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "ascii-canvas-db"
+# database_id = ""
+
+# Future: R2 bucket for uploaded originals and generated PNGs
+# [[r2_buckets]]
+# binding = "R2"
+# bucket_name = "ascii-canvas"
